@@ -1,0 +1,45 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(534,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (gtest.vcxproj, test_utmatrix.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  sample_matrix.cpp
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(307,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(306): message : во время компиляции функции-члена класс шаблон "std::ostream &operator <<(std::ostream &,const TDynamicMatrix<int> &)"
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\samples\sample_matrix.cpp(42): message : выполняется компиляция ссылки на экземпляр шаблон функции "std::ostream &operator <<(std::ostream &,const TDynamicMatrix<int> &)"
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\samples\sample_matrix.cpp(18): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "TDynamicMatrix<int>"
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(286,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(283): message : во время компиляции функции-члена класс шаблон "TDynamicMatrix<int> TDynamicMatrix<int>::operator *(const TDynamicMatrix<int> &)"
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\samples\sample_matrix.cpp(48): message : выполняется компиляция ссылки на экземпляр шаблон функции "TDynamicMatrix<int> TDynamicMatrix<int>::operator *(const TDynamicMatrix<int> &)"
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(287,29): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(288,33): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(277,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(274): message : во время компиляции функции-члена класс шаблон "TDynamicMatrix<int> TDynamicMatrix<int>::operator -(const TDynamicMatrix<int> &)"
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\samples\sample_matrix.cpp(45): message : выполняется компиляция ссылки на экземпляр шаблон функции "TDynamicMatrix<int> TDynamicMatrix<int>::operator -(const TDynamicMatrix<int> &)"
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(268,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(265): message : во время компиляции функции-члена класс шаблон "TDynamicMatrix<int> TDynamicMatrix<int>::operator +(const TDynamicMatrix<int> &)"
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\samples\sample_matrix.cpp(42): message : выполняется компиляция ссылки на экземпляр шаблон функции "TDynamicMatrix<int> TDynamicMatrix<int>::operator +(const TDynamicMatrix<int> &)"
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(176,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(173): message : во время компиляции функции-члена класс шаблон "TDynamicVector<T> TDynamicVector<T>::operator -(const TDynamicVector<T> &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(278): message : выполняется компиляция ссылки на экземпляр шаблон функции "TDynamicVector<T> TDynamicVector<T>::operator -(const TDynamicVector<T> &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\samples\sample_matrix.cpp(23): message : выполняется компиляция ссылки на экземпляр класс шаблон функции "TDynamicVector<T>"
+          with
+          [
+              T=int
+          ]
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(166,25): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(163): message : во время компиляции функции-члена класс шаблон "TDynamicVector<T> TDynamicVector<T>::operator +(const TDynamicVector<T> &)"
+          with
+          [
+              T=int
+          ]
+C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\include\tmatrix.h(269): message : выполняется компиляция ссылки на экземпляр шаблон функции "TDynamicVector<T> TDynamicVector<T>::operator +(const TDynamicVector<T> &)"
+          with
+          [
+              T=int
+          ]
+  sample_utmatrix.vcxproj -> C:\Users\mikem\OneDrive\Рабочий стол\LABB2\mp2-lab2-matrix\sln\Debug\sample_utmatrix.exe
